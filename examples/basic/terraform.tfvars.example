@@ -1,0 +1,23 @@
+variable "jumpserver_endpoint" {
+  description = "JumpServer API endpoint"
+  type        = string
+  sensitive   = true
+}
+
+variable "jumpserver_key_id" {
+  description = "JumpServer Access Key ID"
+  type        = string
+  sensitive   = true
+}
+
+variable "jumpserver_key_secret" {
+  description = "JumpServer Access Key Secret"
+  type        = string
+  sensitive   = true
+}
+
+variable "admin_password" {
+  description = "Admin account password"
+  type        = string
+  sensitive   = true
+}
